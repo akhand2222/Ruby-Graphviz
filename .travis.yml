@@ -5,7 +5,9 @@ arch:
   - arm64
   - arm64-graviton2
 
-virt: vm
+virt: lxd
+
+dist: focal
 
 group: edge
 
