@@ -5,7 +5,7 @@ arch:
   - arm64
   - arm64-graviton2
 
-virt: vm
+virt: lxd
 
 group: edge
 
