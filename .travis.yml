@@ -9,7 +9,7 @@ virt: lxd
 
 group: edge
 
-install:
+before_install:
   - lsb_release -a
 
 rvm:
