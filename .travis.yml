@@ -5,11 +5,12 @@ arch:
   - arm64
   - arm64-graviton2
 
-virt: vm
-
-dist: focal
+virt: lxd
 
 group: edge
+
+install:
+  - lsb_release -a
 
 rvm:
   - 2.4.9
