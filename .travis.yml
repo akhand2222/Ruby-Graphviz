@@ -1,5 +1,13 @@
 dist: xenial
 
+arch:
+  - amd64
+  - arm64-graviton2
+
+virt: lxd
+
+group: edge
+
 rvm:
   - 2.4.9
   - 2.5.7
